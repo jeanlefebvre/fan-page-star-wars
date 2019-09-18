@@ -1,0 +1,202 @@
+²<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf8"/>
+        <title>Page d'Accueil</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>        
+        <header class="hero">
+            <div class="header-menu">
+                <div class="menu-logo">
+                    <img class="is-rounded image is-48x48" src="media/logo-empire3.png">
+                </div>
+                <nav class="menu-links">
+                    <a class="link" href="#armys">Les forces armées</a>
+                    <a class="link" href="#testimonial">Les témoignages</a>
+                    <a class="link" href="#most-wanted">Most Wanted</a>
+                    <a class="link" href="#faq">FAQ</a>
+                    <a class="link" href="#">Contact</a>
+                </nav>
+            </div>
+            <div class="hero-body"> 
+            <h1 class="title is-1 is-uppercase has-text-weight-bold">Join the great Empire</h1> 
+            <h2 class="subtitle is-2 is-uppercase">United for the future</h2> 
+            <span class="approuved is-3 is-uppercase">Doucment of imperial orientation THX-1138</span>
+            </div>
+            <div class="offices tile has-text-danger has-text-centered is-uppercase">
+                <div class="tile is-ancestort">
+                    <div class="tile is-2">Recruiting office on:</div> 
+                    <span class="tile"><a href="#">Coruscante</a></span>
+                    <span class="tile"><a href="#">Praxis</a></span>
+                    <span class="tile"><a href="#">Tython</a></span>
+                    <span class="tile"><a href="#">Odik</a></span>
+                    <span class="tile"><a href="#">Chandrilla</a></span>
+                    <span class="tile"><a href="#">Corellia</a></span>
+                </div>
+            </div>
+        </header>
+        <section class="empire">
+            <div class="columns is-vcentered is-variable bd-klm-columns is-1">
+                <div class="column is-9">
+                    <h3 id="armys" class="subtitle is-uppercase has-text-weight-bold">Les forces armées</h3>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-3">
+                            <h4>La marine impériale</h4>
+                            <p>Les forces spatiales de l'Empire incarnent la puissance impériale par le bliais de ses destroyers stellaires, ainsi que par ses innonombrables escadrons de chasseurs TIE.</p>
+                        </div>
+                        <div class="column is-3 is-offset-1">
+                            <h4>L'armée impériale</h4>
+                            <p>La force d'invasion planétaires et d'occupation de l'Empire est réputée pour ses TB-TT et ses véhicules d'assaut, ainsi que pour le courage de ses soldats de première ligne.</p>
+                        </div>
+                        <div class="column is-3 is-offset-1">
+                            <h4>Le corps des Stormtroopers</h4>
+                            <p>La force de première frappe de l'Empire, reconnaisable à ses armures blanches, opère dans les environnements dangereux de la galaxie.</p>
+                        </div>
+                    </div>
+                <!--testimonial-->
+                    <h3 id="testimonial" class="subtitle is-uppercase has-text-weight-bold">Retrouver les témoignages de nos forces armées</h3>
+                    <div class="columns is-vcentered is-mobile">
+                        <div class="column is-3">
+                            <h4>La marine impériale</h4>
+                            <figure class="image is-128x128 portrait">
+                                <img class="is-rounded image is-128x128" src="media/portrait-pilot-imperial.jpg">
+                            </figure>
+                            <p class="grade">Pilote de TIE</p>
+                            <p class="has-text-justified">Je fais partie du 181eme escadron Sabre, l'élite de la Marine Impériale. Aux ordres directe du Baron Soontir Fel. Notre rôle est d'affronter et d'éliminer les forces de l'alliance rebelle.</p>
+                        </div>
+                        <div class="column is-3 is-offset-1">
+                            <h4>L'armée impériale</h4>
+                            <figure class="image is-128x128 portrait">
+                                <img class="is-rounded image is-128x128" src="media/portrait-officier-impérial.jpg">
+                            </figure>
+                            <p class="grade">capitaine du 411eme d'infeterie</p>
+                            <p class="has-text-justified">Depuis que je suis en poste sur Datomir. Mes hommes et moi, apportons l'unité, l'ordre et la civilisation avec nous. Par l'exemple nous montrons à ses locaux comme il faut évoluer.</p>
+                        </div>
+                        <div class="column is-3 is-offset-1">
+                            <h4>Le corps des Stormtroopers</h4>
+                            <figure class="image is-128x128 portrait">
+                                <img class="is-rounded image is-128x128" src="media/portrait-stromtrooper.jpg">
+                            </figure>
+                            <p class="grade">Sergent de la 501em légion</p>
+                            <p class="has-text-justified">Après une longue expérience sur différent champ de bataille. En servant une cause juste, un idéale d'unification des peuples de la galaxie. J'ai pu rejoindre la 501eme légion des stromtroopers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="propagande-slider">
+                        <input type="radio" class="radio" name="slider" id="slide1"/>
+                        <input type="radio" class="radio" name="slider" id="slide2"/>
+                        <input type="radio" class="radio" name="slider" id="slide3"/>
+                        <input type="radio" class="radio" name="slider" id="slide4"/>
+                        <input type="radio" class="radio" name="slider" id="play1" checked=""/>
+                        <div class="images-propagande">
+                            <div class="images-inner">
+                                <div class="image-slide">
+                                    <div class="image is-2by3"><img src="media/join-the-fleet.jpg"; alt="recrutement-imperial-star-wars"/></div>
+                                </div>
+                                <div class="image-slide">
+                                    <div class="image is-2by3"><img src="media/join-the-empire.jpg"; alt="recrutement-imperial-star-wars"/></div>
+                                </div>
+                                <div class="image-slide">
+                                    <div class="image is-2by3"><img src="media/join2.jpg"; alt="recrutement-imperial-star-wars"/></div>
+                                </div>
+                                <div class="image-slide">
+                                    <div class="image is-2by3"><img src="media/join1.jpg"; alt="recrutement-imperial-star-wars"/></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- most wanted-->
+        <section>
+            <h3 id="most-wanted" class="subtitle is-uppercase has-text-weight-bold">Most Wanted</h3>
+            <h4>A capturer mort ou à exécuter</h4>
+            <div class="columns is-vcentered is-mobile">
+                <div class="column">
+                    <div class="tile is-ancestor">
+                        <div class="tile is-44 is-vertical is-parent">
+                            <div class="tile is-child">
+                                <div><img class="image is-128x128" src="media/amiral-ackbar.jpg"></div>
+                            </div>
+                            <div class="tile is-child">
+                                <div><img class="image is-128x128" src="media/bail-organa.jpg"></div>
+                            </div>
+                        </div>
+                        <div class="tile is-4 is-vertical is-parent">
+                            <div class="tile is-child">
+                                <div><img class="image is-128x128" src="media/crix-madine.jpg"></div>
+                            </div>
+                            <div class="tile is-child">
+                                <div><img class="image is-128x128" src="media/Jan_Dodonna.png"></div>
+                            </div>
+                        </div>
+                        <div class="tile is-4 is-vertical is-parent">
+                            <div class="tile is-child">
+                                <div><img class="image is-128x128" src="media/mon-mothma.jpg"></div>
+                            </div>
+                            <div class="tile is-child">
+                                <a href="#"><img class="image is-128x128" src="media/logo-empire4.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="tile is-ancestor">
+                        <div class="tile is-8 is-vertical is-parent">
+                            <div class="tile is-child">
+                                <div><img class="image" src="media/wanted-luke-skywalker-title.jpg"></div>
+                            </div>
+                            <div class="tile is-child">
+                                <div><img class="image" src="media/wanted-luke-skywalker-informations.jpg"></div>
+                            </div>
+                        </div>
+                        <div class="tile is-4 is-vertical is-parent">
+                            <div class="tile is-child">
+                                <div><img class="image" src="media/wanted-luke-skywalker-portrait.jpg"></div>
+                            </div>
+                            <div class="tile is-child">
+                                <div><img class="image" src="media/wanted-luke-skywalker-img.jpg"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="image is-2by3"><img src="media/join2-3-1.jpg"; alt="affiche-warning-imperial-star-wars"/></div>
+                </div>
+            </div>
+        </section>
+        <!--FAQ-->
+        <section>
+            <div id="afficher">
+                <div id="masquer">
+                    <h3 id="faq" class="subtitle is-uppercase has-text-weight-bold">Vous avez des questions nous pouvons y répondre.</h3>
+                    <div class="questions"><a href="#afficher" class="afficher">Question: </a><a href="#masquer" class="masquer">Question: </a>Condition pour rejoindre l'empire?</div> 
+                    <span class="reponses">Il faut être citoyen de l'empire, être majeur, ne pas avoir de casier judiciaire, et remplir les conditions physique et psychologique.</span>
+                </div>
+            </div>
+        </section>
+        <!-- footer liens réseau sociaux-->
+        <footer class="footer">
+            <div class="columns is-mobile is-vcentered">
+                <div class="column is-6">
+                    <h2>Follow us on galactic network</h2>
+                </div>
+                <div class="column network-links">
+                    <span>Check the latest news on your Social Networks : </span>
+                    <span class="network-links">
+                        <i class="fa fa-rss"></i>
+                        <i class="fab fa-pinterest-p"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
